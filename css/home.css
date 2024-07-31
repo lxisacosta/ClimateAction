@@ -1,6 +1,6 @@
 
 #hero {
-    background-image: url = 'img/hero-bg.png';
+    background-image: url('img/hero-bg.png');
     background-size: cover;
     background-position: center;
     height: 700px;
@@ -21,7 +21,7 @@
 }
 
 #mission {
-    background-image: url('C:/Users/lxisa/Documents/climateaction/img/section-bg.png'); 
+    background-image: url('img/section-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed; 

@@ -37,7 +37,7 @@
 
 
 #actions-section {
-    background-image: url('C:/Users/lxisa/Documents/climateaction/img/section-bg.png');
+    background-image: url('img/section-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -72,7 +72,7 @@
 }
 
 #carbon-calculator {
-    background-image: url('C:/Users/lxisa/Documents/climateaction/img/section-bg.png'); /* Adicione o caminho correto da imagem de fundo */
+    background-image: url('img/section-bg.png'); 
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

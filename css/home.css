@@ -1,0 +1,105 @@
+
+#hero {
+    background-image: url('C:/Users/lxisa/Documents/climateaction/img/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    position: relative;
+    color: #fff;
+    padding: 20px; 
+}
+
+#hero .hero-content {
+    text-align: left;
+    max-width: 700px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#mission {
+    background-image: url('C:/Users/lxisa/Documents/climateaction/img/section-bg.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    padding: 45px;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333; 
+}
+
+#mission .container {
+    background-color: #9daf89;
+    border-radius: 20px; 
+    padding: 45px;
+}
+
+#mission h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#mission p {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    line-height: 1.6em;
+}
+
+#contact {
+    background-color: #ccd6c0; 
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+#contact p a {
+    font-weight: normal; 
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px; 
+    margin: 0 auto;
+}
+
+#contact input, #contact textarea {
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #788668;
+    background-color: #9daf89; 
+    color: #000000; 
+    font-family: sans-serif;
+}
+
+#contact button {
+    padding: 15px;
+    background-color: #768466; 
+    color: #fff; 
+    border: none;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    text-transform: uppercase; 
+}
+#contact button:hover {
+    background-color: #9daf89; 
+}
+
+#contact a {
+    color: #333;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}

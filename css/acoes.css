@@ -1,0 +1,143 @@
+#hero {
+    background-color: #ccd6c0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#hero .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.hero-button {
+    background-color: #768466;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.hero-button:hover {
+    background-color: #9daf89;
+}
+
+
+#actions-section {
+    background-image: url('C:/Users/lxisa/Documents/climateaction/img/section-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px 20px;
+}
+
+#actions-section .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: #9daf89;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+    flex: 1 1 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 20px;
+    text-align: center;
+}
+
+#carbon-calculator {
+    background-image: url('C:/Users/lxisa/Documents/climateaction/img/section-bg.png'); /* Adicione o caminho correto da imagem de fundo */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#carbon-calculator .container {
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px; 
+    background-color: #ccd6c0; 
+}
+
+#carbon-calculator h2 {
+    font-size: 1.8em; 
+    margin-bottom: 20px;
+    color: #4a5a4f; 
+}
+
+#carbon-calculator .form-group {
+    margin-bottom: 15px; 
+    text-align: justify; 
+}
+
+#carbon-calculator .form-group label {
+    display: block;
+    margin-bottom: 5px; 
+    color: #4a5a4f; 
+}
+
+#carbon-calculator .form-group input {
+    width: 97%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #788668;
+    background-color: #9daf89;  
+}
+
+#carbon-calculator .btn {
+    background-color: #768466; 
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+#carbon-calculator .btn:hover {
+    background-color: #9daf89; 
+}
+
+#carbon-calculator .result-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px; 
+}
+
+#carbon-calculator .result-line h4,
+#carbon-calculator .result-line p {
+    display: inline;
+    margin: 0 5px; 
+}
+
+

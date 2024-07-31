@@ -1,0 +1,70 @@
+#hero {
+    background-color: #ccd6c0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#hero .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+#main-content {
+    background-image: url('C:/Users/lxisa/Documents/climateaction/img/section-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px 20px;
+}
+
+.news-card {
+    background-color: #9daf89;
+    padding: 16px;
+    margin: 16px 0;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news-card h3 {
+    margin: 0 0 8px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.news-card p {
+    margin: 0 0 12px;
+    color: #333;
+    text-align: center;
+    font-size: 0.87em;
+}
+
+.news-card a {
+    text-decoration: none;
+    color: #768466;
+    font-weight: bold;
+}
+
+.news-card a:hover {
+    text-decoration: underline;
+}
+
+.news-card .news-image {
+    width: 100%;
+    height: 400px;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}

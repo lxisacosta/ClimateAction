@@ -35,15 +35,6 @@
     background-color: #9daf89;
 }
 
-
-#actions-section {
-    
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 50px 20px;
-}
-
 #actions-section .container {
     display: flex;
     flex-wrap: wrap;

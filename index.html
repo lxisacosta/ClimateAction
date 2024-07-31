@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial - ClimateAction</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Climate Action">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">INÍCIO</a></li>
+                <li><a href="informacoes.html">INFORMAÇÕES</a></li>
+                <li><a href="acoes.html">AÇÕES</a></li>
+                <li><a href="noticias.html">NOTÍCIAS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Ação hoje,</h1>
+            <h2>impacto amanhã.</h2>
+        </div>
+    </section>
+
+    <section id="mission" class="full-width-section">
+        <div class="container">
+            <h2> NOSSA MISSÃO </h2>
+            <p>O ClimateAction é uma plataforma online dedicada a promover a conscientização e ação em prol da sustentabilidade ambiental, com foco na mitigação das mudanças climáticas e seus impactos. Criada pelas estudantes Jaíse Barreto, Larissa Cena, Luísa Costa e Thaís Dias do IFBA Campus Irecê, esta iniciativa surgiu a partir dos Objetivos de Desenvolvimento Sustentável (ODS) da ONU (Organização das Nações Unidas). Nossa missão é fornecer informações e recursos para ajudá-lo a contribuir para um mundo mais sustentável e se envolver em ações que protejam nosso planeta.</p>
+        </div>
+    </section>
+      
+    <section id="contact">
+        <div class="container">
+            <h2>Contate-nos</h2>
+            <p>Deixe sua mensagem para saber mais sobre nossos serviços, dúvidas, sugestões, solicitações de entrevistas, dentre outras.</p>
+            <p><strong>E-mail:</strong> <a href="mailto:climateaction.ifba@gmail.com">climateaction.ifba@gmail.com</a></p>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Nome" required>
+                <input type="email" name="email" placeholder="E-mail" required>
+                <input type="text" name="subject" placeholder="Assunto" required>
+                <textarea name="message" placeholder="Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>    
+
+    <footer>
+        <div class="container">
+            <img src="img/logo-rodape.png" alt="Climate Action Logo Rodapé">
+            <p> Climate Action, 2024. </p>
+            <p> © Todos os direitos reservados. </p> 
+            <div class="social-media">
+                <a href="https://www.facebook.com/profile.php?id=61563762864735&mibextid=ZbWKwL" target="_blank"><img src="img/icon-facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/climateaction_ifba?igsh=MTg5NzNrYjgxamh3Mw==" target="_blank"><img src="img/icon-instagram.png" alt="Instagram"></a>
+                <a href="https://www.youtube.com/@ClimateActionn1" target="_blank"><img src="img/icon-youtube.png" alt="YouTube"></a>
+                <a href="https://x.com/ClimateActionIF" target="_blank"><img src="img/icon-twitter.png" alt="Twitter"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        (function() {
+            emailjs.init("fsE9ppmYAWBgTfP7Y");
+        })();
+    </script>
+    
+    <script src="js/main.js"></script> 
+    
+</body>
+</html>

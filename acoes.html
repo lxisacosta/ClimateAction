@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ações - Climate Action</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/acoes.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Climate Action">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">INÍCIO</a></li>
+                <li><a href="informacoes.html">INFORMAÇÕES</a></li>
+                <li><a href="acoes.html" class="active">AÇÕES</a></li>
+                <li><a href="noticias.html">NOTÍCIAS</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Iniciativas que fazem a diferença</h1>
+                <p>Descubra como pequenas mudanças podem fazer uma grande diferença na sua pegada de carbono e contribuir para um mundo mais sustentável.</p>
+                <a href="#carbon-calculator" class="hero-button">Calcule a sua pegada de carbono</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="actions-section">
+        <div class="container">
+            <div class="card">
+                <div class="card-image">
+                    <img src="img/plante.jpg" alt="Plante Árvores">
+                </div>
+                <div class="card-content">
+                    <p>Plante árvores na sua comunidade para aumentar as áreas verdes e absorver CO2.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="img/recicle.jpg" alt="Recicle">
+                </div>
+                <div class="card-content">
+                    <p>Recicle materiais como papel, plástico e vidro para reduzir o desperdício.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="img/energia-renovavel.jpg" alt="Use Energia Renovável">
+                </div>
+                <div class="card-content">
+                    <p>Utilize fontes de energia renovável, como solar ou eólica, em sua casa.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="img/consumo-local.jpg" alt="Consuma Produtos Locais">
+                </div>
+                <div class="card-content">
+                    <p>Prefira produtos locais para diminuir as emissões de transporte.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="img/transporte-publico.jpg" alt="Use Transporte Público">
+                </div>
+                <div class="card-content">
+                    <p>Utilize transporte público, bicicleta ou caminhe para reduzir as emissões de carbono.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="img/evite-plastico.jpg" alt="Evite Plásticos de Uso Único">
+                </div>
+                <div class="card-content">
+                    <p>Evite plásticos de uso único e adote alternativas reutilizáveis.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="img/economize-agua.jpg" alt="Economize Água">
+                </div>
+                <div class="card-content">
+                    <p>Economize água utilizando dispositivos de baixo fluxo e consertando vazamentos.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="img/alimentacao-sustentavel.jpg" alt="Adote Alimentação Sustentável">
+                </div>
+                <div class="card-content">
+                    <p>Adote uma alimentação baseada em plantas e reduza o consumo de carne.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="img/apoie-iniciativas.jpg" alt="Apoie Iniciativas Sustentáveis">
+                </div>
+                <div class="card-content">
+                    <p>Apoie iniciativas de sustentabilidade locais e globais participando de campanhas e eventos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="carbon-calculator">
+        <div class="container">
+            <h2>Calculadora de emissão de carbono</h2>
+            <div class="form-group">
+                <label for="consumo">Qual é o consumo de combustível do seu carro? (L/100 km)</label>
+                <input id="consumo" type="number" class="form-control" placeholder="Consumo">
+            </div>
+            <div class="form-group">
+                <label for="distancia">Qual é a distância total de deslocamento? (em quilômetros)</label>
+                <input id="distancia" type="number" class="form-control" placeholder="Distância">
+            </div>
+            <div class="form-group">
+                <label for="viagens">Quantas vezes essa viagem é feita por semana?</label>
+                <input id="viagens" type="number" class="form-control" placeholder="Número de viagens">
+            </div>
+            <button class="btn btn-secondary" onclick="calcCO2()">CALCULAR</button>
+            <h5>ㅤㅤ</h5>
+            <div class="result mt-4">
+                <div class="result-line">
+                    <h4>Sua Pegada de Carbono é:</h4>
+                    <p id="resultado4" class="bg-success rounded p-2"></p>
+                    <h4>g CO2e / km</h4>
+                </div>
+                <div class="result-line">
+                    <h4>Sua Pegada de Carbono nesta viagem é:</h4>
+                    <p id="resultado" class="bg-success rounded p-2"></p>
+                    <h4>kg CO2e</h4>
+                </div>
+                <div class="result-line">
+                    <h4>Sua Pegada de Carbono por semana é:</h4>
+                    <p id="resultado2" class="bg-success rounded p-2"></p>
+                    <h4>kg CO2e</h4>
+                </div>
+                <div class="result-line">
+                    <h4>Sua Pegada de Carbono por ano é:</h4>
+                    <p id="resultado3" class="bg-success rounded p-2"></p>
+                    <h4>kg CO2e</h4>
+                </div>
+            </div>            
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <img src="img/logo-rodape.png" alt="Climate Action Logo Rodapé">
+            <p>Climate Action, 2024.</p>
+            <p>© Todos os direitos reservados.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/profile.php?id=61563762864735&mibextid=ZbWKwL" target="_blank"><img src="img/icon-facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/climateaction_ifba?igsh=MTg5NzNrYjgxamh3Mw==" target="_blank"><img src="img/icon-instagram.png" alt="Instagram"></a>
+                <a href="https://www.youtube.com/@ClimateActionn1" target="_blank"><img src="img/icon-youtube.png" alt="YouTube"></a>
+                <a href="https://x.com/ClimateActionIF" target="_blank"><img src="img/icon-twitter.png" alt="Twitter"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script> 
+    <script src="js/carbon-calculator.js"></script>
+</body>
+</html>

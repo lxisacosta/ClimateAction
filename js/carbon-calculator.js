@@ -34,3 +34,5 @@ document.addEventListener("DOMContentLoaded", function() {
         resultado4.innerHTML = calc4;
     }
 });
+
+// versão eua: https://codepen.io/matt-bond/pen/ROrbOX

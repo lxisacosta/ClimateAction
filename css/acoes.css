@@ -70,10 +70,8 @@
 }
 
 #carbon-calculator {
-    background-image: url('img/section-bg.png'); 
-    background-repeat: no-repeat;
+    background-color: #E0E6DB; 
     background-size: cover;
-    background-attachment: fixed;
     padding: 50px 20px;
     text-align: center;
 }

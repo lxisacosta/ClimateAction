@@ -1,3 +1,11 @@
+/* 
+    Créditos:
+    Este código foi originalmente criado por Matt Bond e está disponível em: 
+    https://codepen.io/matt-bond/pen/ROrbOX
+
+    Modificações foram feitas para ajustar as medidas ao sistema usado no Brasil.
+*/
+
 document.addEventListener("DOMContentLoaded", function() {
     var resultado = document.getElementById('resultado');
     var resultado2 = document.getElementById("resultado2");
@@ -34,5 +42,3 @@ document.addEventListener("DOMContentLoaded", function() {
         resultado4.innerHTML = calc4;
     }
 });
-
-// versão eua: https://codepen.io/matt-bond/pen/ROrbOX

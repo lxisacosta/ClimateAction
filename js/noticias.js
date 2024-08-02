@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const apiKey = 'pub_497834b37b9d796c006dcffc0b06c406f13d5';
-    const apiUrl = https://newsdata.io/api/1/news?apikey=${apiKey}&q=meio%20ambiente&language=pt;
+    const apiUrl = 'https://newsdata.io/api/1/news?apikey=${apiKey}&q=meio%20ambiente&language=pt';
 
     const relevantKeywords = ['mudança climática', 'sustentabilidade', 'meio ambiente', 'aquecimento global', 'energia renovável', 'poluição', 'biodiversidade'];
 

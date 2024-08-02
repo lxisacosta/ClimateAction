@@ -77,6 +77,8 @@ footer {
 
 footer .container {
     display: flex;
+    position: sticky;
+    bottom: 0;
     flex-direction: column;
     align-items: center;
 }

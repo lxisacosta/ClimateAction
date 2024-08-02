@@ -39,9 +39,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     let articles = [];
     let page = 1;
     const pageSize = 10;
+    const maxAttempts = 5;  
 
     try {
-        while (articles.length < 10) {
+        while (articles.length < 10 && page <= maxAttempts) {
             const apiUrl = `${baseUrl}&page=${page}`;
             const data = await fetchNews(apiUrl);
 
@@ -67,4 +68,5 @@ document.addEventListener('DOMContentLoaded', async () => {
         newsContainer.innerHTML = '<p>Erro ao buscar notícias.</p>';
     }
 });
+
 

@@ -58,3 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(error => console.error('Erro ao buscar notícias:', error)); // Captura e exibe erros no console para depuração
 });
+
+// Assim, esse teste de integração verifica se os três componentes do sistema de notícias funcionam juntos corretamente. 
+// Se um deles falhar, o sistema precisa reagir de forma adequada.
+// Com essa abordagem, garantimos uma experiência de usuário confiável.
